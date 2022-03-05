@@ -1,0 +1,86 @@
+.slideBlock {
+    max-width: 700px;
+    position: relative;
+    display: flex;
+    margin-top: 415px;
+}
+
+.imageSlide {
+    position: absolute;
+}
+
+.redBears {
+    position: absolute;
+}
+
+
+.swiper-button-prev {
+    background-image: url('./sliderImages/rightArrow.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: 260px;
+    width: 38px;
+    height: 38px;
+    transform: rotate(180deg)
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-next {
+    background-image: url('./sliderImages/rightArrow.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: 260px;
+    width: 38px;
+    height: 38px;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.image {
+    width: 211.45px;
+    height: 209.27px;
+    background-color: red;
+}
+
+.swiper-slide {
+    width: auto;
+}
+
+.sale__img {
+    width: 211.45px;
+    height: 209.27px;
+}
+
+.sale__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.sale__p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}

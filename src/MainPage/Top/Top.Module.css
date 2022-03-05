@@ -1,0 +1,165 @@
+.top {
+    background-image: url(./TopImage/BackGroundTop.jpg);
+    height: 833px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.topCloud {
+    background: linear-gradient(-172.92deg, #FFFFFF 2.56%, rgba(255, 255, 255, 0.572235) 32.59%, rgba(255, 255, 255, 0) 54.54%);
+    height: 103px;
+}
+
+.containerHeader {
+    padding-right: calc(50% - 623px);
+    padding-left: calc(50% - 623px);
+}
+
+.headerLine {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+
+.topRight {
+    display: flex;
+    align-items: center;
+}
+
+.topRight a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #275553;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.topRight button {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #275553;
+    border: 1px solid #275553;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* часть с датой  */
+
+
+
+
+
+
+.dreamSlideBlock {
+    display: flex;
+}
+
+.dreamBlock {
+    width: 50%;
+}
+
+.sliderPart {
+    position: relative;
+    width: 50%;
+
+}
+
+.container {
+    padding-right: calc(50% - 720px);  /*  ПРАВАЯ ЧАСТЬ БЛОКА ТОП  */
+    padding-left: calc(50% - 623px);
+}
+
+.dreamHeading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 63px;
+    line-height: 64px;
+    font-feature-settings: 'ordn'on;
+    color: #FFFFFF;
+    max-width: 616px;
+    margin-top: 47px;
+}
+
+.termTour {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 56px;
+    background: linear-gradient(91.82deg, #FB8B62 5.83%, #F47648 89.73%), #F47648;
+    backdrop-filter: blur(68px);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    max-width: 481px;
+    color: #FFFFFF;
+    margin-top: 27px;
+    padding: 3px 24px;
+}
+
+.dreamParag {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    max-width: 384px;
+    margin-top: 43px;
+}
+
+
+.arrowLink {
+    margin-top: 20px;
+    width: 232px;
+}
+
+.arrowLink a {
+    display: flex;
+}
+
+.arrowLink p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.arrowLink div {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 43.5px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18px;
+}
+
+.sotialIcons img {
+    margin-right: 29px;
+    margin-top: 151px;
+}

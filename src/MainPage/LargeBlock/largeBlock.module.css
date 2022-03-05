@@ -1,0 +1,115 @@
+.planeTop {
+    background-color: white;
+    height: 452px;
+}
+
+.mountPic{
+
+    background-image: url(./LargeBlockPhotos/mountPic.jpg);
+    height: 911px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat ;
+    background-size: cover;
+
+
+
+}
+
+.Shade{
+    background: linear-gradient(2.4deg, #000000 12.72%, rgba(0, 0, 0, 0.633721) 44.36%, rgba(0, 0, 0, 0) 70.61%);
+    height: 911px;
+    background-size: cover;
+}
+
+.container{
+    padding-right: calc(50% - 623px);
+    padding-left: calc(50% - 623px);
+}
+
+
+
+
+
+.spruce{
+    background-image: url(./LargeBlockPhotos/spruce.jpg);
+    height: 830px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.spruceShadow{
+    background: linear-gradient(180deg, #000000 7.21%, rgba(0, 0, 0, 0.31) 68.74%, rgba(0, 0, 0, 0) 100%);
+    height: 830px;
+}
+
+.spruceCloud{
+    background-image: url("./LargeBlockPhotos/groupCloud.png");
+    height: 350px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    top: 693px
+}
+
+.voulcano{
+    height: 861px;
+    kground-color: white;
+}
+
+.serviceCards{
+    height: 609px;
+    background-color: #F1F1F1;
+}
+
+.waterFallWhite{
+    height: 409px;
+}
+.waterFall{
+    background-image: url(./LargeBlockPhotos/waterfall.jpg);
+    height: 475px;
+    position: relative;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.albatross{
+height: 706px;
+    background-color: black;
+}
+
+
+.oldIsland{
+    background-image: url("./LargeBlockPhotos/oldIsland.svg");
+    height: 1498px;
+    width: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.islandShadow{
+    background: linear-gradient( #000000 23.35%, rgba(0, 0, 0, 0.572235) 60.21%, rgba(0, 0, 0, 0) 88.82%);
+    height: 1060px;
+}
+
+
+.geysers{
+    background-color: white;
+    height: 1029px;
+}
+
+.wayHome{
+    background-image: url("./LargeBlockPhotos/wayhome.jpg");
+    height: 710px;
+    width: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+.wayHomeShadow{
+    background: linear-gradient(0deg, #000000 23.35%, rgba(0, 0, 0, 0.572235) 60.21%, rgba(0, 0, 0, 0) 88.82%);
+    height: 711px;
+}
